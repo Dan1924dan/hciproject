@@ -30,23 +30,6 @@ sr.reveal('.container, .about, .menu, .contact',{delay:100, origin:'bottom'});
 
 
 // Assume user has successfully logged in
-var loggedIn = true;
-
-if (loggedIn) {
-    var modal = document.getElementById("myModal");
-    modal.style.display = "block";
-
-    var closeButton = document.getElementsByClassName("close")[0];
-    closeButton.onclick = function() {
-        modal.style.display = "none";
-    }
-
-    window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.display = "close";
-        }
-    }
-}
 
 
 
